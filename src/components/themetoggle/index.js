@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { WiMoonAltWaningCrescent4 } from "react-icons/wi";
+import {MdDarkMode} from "react-icons/md"
 
 
 const Themetoggle = () => {
@@ -13,7 +14,7 @@ const Themetoggle = () => {
   }, [theme]);
   return (
     <div className="nav_ac" onClick={themetoggle}>
-      <WiMoonAltWaningCrescent4 />
+      <MdDarkMode/>
     </div>
   );
 };

@@ -17,7 +17,7 @@ section {
 
 .btn-portfolio {
     background: var(--primary-color);
-    border-radius: 0;
+    border-radius: 1.5rem;
 }
 
 .btn-portfolio a {
@@ -207,7 +207,6 @@ section {
         transform: translate(-50%, 50%);
     }
 }
-
 .intro_sec .h_bg-image .block .wrap-icon {
     font-size: 40px;
     color: var(--text-color);

@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import "./style.css";
-import { VscGrabber, VscClose } from "react-icons/vsc";
+import { VscGrabber, VscClose} from "react-icons/vsc";
+import { AiOutlineMenu } from "react-icons/ai";
+import {AiOutlineCloseCircle} from "react-icons/ai"
 import { Link } from "react-router-dom";
 import { logotext ,socialprofils } from "../content_option";
 import Themetoggle from "../components/themetoggle";
@@ -23,7 +25,7 @@ const Headermain = () => {
           <div className="d-flex align-items-center">
           <Themetoggle />
           <button className="menu__button  nav_ac" onClick={handleToggle}>
-            {!isActive ? <VscClose /> : <VscGrabber />}
+            {!isActive ? <AiOutlineCloseCircle/> : <AiOutlineMenu />}
           </button>
           
           </div>
